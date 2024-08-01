@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/login"method="POST">
+        <label for="username">Username :</label>
+        <input type="text"
+        id="username"name="username" required>
+        <label for="password">password:</label>
+        <input type="password"
+        id="password"name="password" required>
+        <button type="submit">Login</button>
+        </form>
+        <div class="register link">
+            <p>Dont have account?
+                <a href="rigister.html">Rigister here</a></p>
+        </div> 
+        <div class="container">
+            <h2>Rigister</h2>
+            <form action="/rigister" method="POST">
+                <div class="form group">
+                    <label for="username">Username</label>
+                    <input type="text"id="username" name="username"required>
+                </div>
+                <div class="form group">
+                    <label for="password">Password</label>
+                    <input type="password"id="password"name="password"required>
+                </div>
+                <div class="form group">
+                    <label for="confirm password">Conform password</label>
+                    <input type="confirm password"id="confirm password"required>
+                </div>
+                <div class="form group">
+                    <input type="submit" value="Rigister">
+                </div>       
+</body>
+</html>
